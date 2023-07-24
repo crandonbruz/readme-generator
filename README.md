@@ -3,10 +3,10 @@
 ## Description
 d
 ## Table of Contents
-[Installation](#installation)
-[Usage](#usage)
-[License](#license)
-[How to Contribute](#contribute)
+-[Installation](#installation)
+-[Usage](#usage)
+-[License](#license)
+-[Contribute](#contribute)
 ## Installation
 d
 ## Usage
@@ -16,7 +16,7 @@ MIT
 ## How to Contribute
 d
 ## Tests
-d,
+d
 ## Questions
 Email:
 d 
