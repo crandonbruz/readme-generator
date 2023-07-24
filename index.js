@@ -31,11 +31,6 @@ const questions = [
         name: 'usage',
     },
     {
-        type: 'input',
-        message: 'Credits:',
-        name: 'credits',
-    },
-    {
         type: 'list',
         message: 'License:',
         choices: ['MIT', 'ISC', 'Apache license 2.0'],
@@ -43,23 +38,23 @@ const questions = [
     },
     {
         type: 'input',
-        message: 'Badges:',
-        name: 'badges',
-    },
-    {
-        type: 'input',
-        message: 'Features:',
-        name: 'features',
-    },
-    {
-        type: 'input',
         message: 'How to Contribute:',
-        name: 'how-to-contribute',
+        name: 'contribute',
     },
     {
         type: 'input',
         message: 'Tests:',
         name: 'tests',
+    },
+    {
+        type: 'input',
+        message: 'Email:',
+        name: 'email',
+    },
+    {
+        type: 'input',
+        message: 'Github:',
+        name: 'github',
     },
 ];
 
