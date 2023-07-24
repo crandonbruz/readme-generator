@@ -56,7 +56,7 @@ ${data.license}
 ## How to Contribute
 ${data.contribute}
 ## Tests
-${data.tests},
+${data.tests}
 ## Questions
 Email:
 ${data.email} 
