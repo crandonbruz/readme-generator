@@ -1,20 +1,20 @@
-# h
+# y
 ## Description
-h
+y
 ## Table of Contents
-{installation}(#installation)
-{usage}(#usage)
-{credits}(#credits)
-{features}(#features)
+{Installation}(#installation)
+{Usage}(#usage)
+{Credits}(#credits)
+{Features}(#features)
 ## Installation
-h
+y
 ## Usage
-h
+y
 ## License
-MIT
+ISC
 ## How to Contribute
-h
+y
 ## Tests
-h,
+y,
 ## Questions
-h
+y, y,

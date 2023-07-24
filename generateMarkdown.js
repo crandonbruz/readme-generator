@@ -3,11 +3,11 @@
 function renderLicenseBadge(license) {
   switch (license){
     case 'Mit':
-      return '[![License: MIT](https://img.shields.io/badge/any_text-you_like-blue)](https://opensource.org/licenses/MIT)';
+      return '[![License: MIT](https://img.shields.io/badge/MIT-blue)](https://opensource.org/licenses/MIT)';
     case 'ISC':
-      return '[![License: ISC](https://img.shields.io/badge/any_text-you_like-blue)](http://opensource.org/licenses/ISC)';
+      return '[![License: ISC](https://img.shields.io/badge/ISC-blue)](http://opensource.org/licenses/ISC)';
     case 'Apache license 2.0':
-      return '[![License: Apache license 2.0](https://img.shields.io/badge/any_text-you_like-blue)](http://www.apache.org/licenses/LICENSE-2.0)';
+      return '[![License: Apache license 2.0](https://img.shields.io/badge/apache_license_2.0-blue)](http://www.apache.org/licenses/LICENSE-2.0)';
     default:
       return '';
   }
@@ -36,7 +36,10 @@ function renderLicenseSection(license) {
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
+const badge = renderLicenseBadge(data.license);
+const link = renderLicenseBadge(data.license)  
   return `# ${data.title}
+${badge}
 ## Description
 ${data.description}
 ## Table of Contents
