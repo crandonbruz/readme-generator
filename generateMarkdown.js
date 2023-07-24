@@ -4,17 +4,28 @@ function renderLicenseBadge(license) {
   switch (license){
     case 'Mit':
       return '[![License: MIT](https://img.shields.io/badge/any_text-you_like-blue)](https://opensource.org/licenses/MIT)';
-      case 'ISC':
-        return '[![License: ISC](https://img.shields.io/badge/any_text-you_like-blue)](http://opensource.org/licenses/ISC)'
-        case 'Apache license 2.0':
-          return '[![License: Apache license 2.0](https://img.shields.io/badge/any_text-you_like-blue)](http://www.apache.org/licenses/LICENSE-2.0)'
+    case 'ISC':
+      return '[![License: ISC](https://img.shields.io/badge/any_text-you_like-blue)](http://opensource.org/licenses/ISC)';
+    case 'Apache license 2.0':
+      return '[![License: Apache license 2.0](https://img.shields.io/badge/any_text-you_like-blue)](http://www.apache.org/licenses/LICENSE-2.0)';
+    default:
+      return '';
   }
 }
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
-
+  switch (license){
+    case 'MIT':
+      return '(https://opensource.org/licenses/MIT)';
+    case 'ISC':
+      return '(http://opensource.org/licenses/ISC)';
+    case 'Apache license 2.0':
+      return '(http://www.apache.org/licenses/LICENSE-2.0)';
+    default:
+      return '';
+  }
 }
 
 // TODO: Create a function that returns the license section of README
@@ -29,10 +40,10 @@ function generateMarkdown(data) {
 ## Description
 ${data.description}
 ## Table of Contents
-{installation}(#installation)
-{usage}(#usage)
-{credits}(#credits)
-{features}(#features)
+{Installation}(#installation)
+{Usage}(#usage)
+{Credits}(#credits)
+{Features}(#features)
 ## Installation
 ${data.installation}
 ## Usage
