@@ -50,7 +50,7 @@ ${data.installation}
 ## Usage
 ${data.usage}
 ## License
-${data.license}
+${data.license} ${link}
 ## How to Contribute
 ${data.contribute}
 ## Tests
