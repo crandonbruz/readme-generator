@@ -41,10 +41,10 @@ ${badge}
 ## Description
 ${data.description}
 ## Table of Contents
-[Installation](#installation)
-[Usage](#usage)
-[License](#license)
-[Contribute](#contribute)
+1. [Installation](#installation)
+2. [Usage](#usage)
+3. [License](#license)
+4. [Contribute](#contribute)
 ## Installation
 ${data.installation}
 ## Usage
@@ -56,9 +56,9 @@ ${data.contribute}
 ## Tests
 ${data.tests}
 ## Questions
-Email:
+- Email:
 ${data.email} 
-[Github:](https://github.com/${data.github})
+- [Github:](https://github.com/${data.github})
 `;
 }
 
