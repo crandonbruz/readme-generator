@@ -17,11 +17,6 @@ const questions = [
     },
     {
         type: 'input',
-        message: 'Table of Contents:',
-        name: 'table-of-contents',
-    },
-    {
-        type: 'input',
         message: 'Installation:',
         name: 'installation',
     },

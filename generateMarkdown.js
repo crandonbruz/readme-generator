@@ -43,10 +43,10 @@ ${badge}
 ## Description
 ${data.description}
 ## Table of Contents
-{Installation}(#installation)
-{Usage}(#usage)
-{Credits}(#credits)
-{Features}(#features)
+[Installation](#installation)
+[Usage](#usage)
+[License](#license)
+[How to Contribute](#contribute)
 ## Installation
 ${data.installation}
 ## Usage
