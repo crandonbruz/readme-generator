@@ -1,23 +1,23 @@
-# f
-
+# Brandon's ReadMe
+[![License: ISC](https://img.shields.io/badge/ISC-blue)](http://opensource.org/licenses/ISC)
 ## Description
-f
+Here is my version of a generated ReadMe.
 ## Table of Contents
 1. [Installation](#installation)
 2. [Usage](#usage)
 3. [License](#license)
 4. [Contribute](#contribute)
 ## Installation
-f
+I was instructed to install inquirer version 8.2.4.
 ## Usage
-f
+This is used to create a common ReadMe file.
 ## License
-MIT (https://opensource.org/licenses/MIT)
+ISC (http://opensource.org/licenses/ISC)
 ## How to Contribute
-f
+Use it and enjoy!
 ## Tests
-f
+Test it and try yourself!
 ## Questions
 - Email:
-f 
-- [Github:](https://github.com/f)
+bcruz12127@gmail.com 
+- [Github:](https://github.com/crandonbruz)

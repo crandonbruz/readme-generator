@@ -58,8 +58,8 @@ ${data.tests}
 ## Questions
 - Email:
 ${data.email} 
-- [Github:](https://github.com/${data.github})
-`;
+- Github: https://github.com/${data.github}
+`; 
 }
 
 module.exports = generateMarkdown;
