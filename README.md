@@ -14,10 +14,10 @@ This is used to create a common ReadMe file.
 ## License
 ISC (http://opensource.org/licenses/ISC)
 ## How to Contribute
-Use it and enjoy!
+Try it out and see if you like it!
 ## Tests
-Test it and try yourself!
+Test it out!!
 ## Questions
 - Email:
 bcruz12127@gmail.com 
-- [Github:](https://github.com/crandonbruz)
+- Github: https://github.com/crandonbruz
